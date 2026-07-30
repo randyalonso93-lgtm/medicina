@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="6dp"
+    app:cardBackgroundColor="@color/md_theme_surface_container"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/md_theme_outline"
+    app:strokeWidth="0.5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Fila 1: Hora + Nombre + Menú -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Hora destacada -->
+            <TextView
+                android:id="@+id/tvHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:30"
+                android:textColor="@color/md_theme_primary"
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-medium"
+                android:minWidth="80dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:id="@+id/tvNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ibuprofeno"
+                    android:textColor="@color/md_theme_on_surface"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
+
+                <TextView
+                    android:id="@+id/tvDosis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500mg — 1 pastilla"
+                    android:textColor="@color/md_theme_on_surface_variant"
+                    android:textSize="13sp"
+                    android:layout_marginTop="2dp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnMenu"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_more"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Opciones"
+                app:tint="@color/md_theme_outline" />
+
+        </LinearLayout>
+
+        <!-- Descripción (solo si existe) -->
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomar después de comer"
+            android:textColor="@color/md_theme_outline"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:visibility="gone" />
+
+        <!-- Fila 2: Stock + Controles -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="12dp"
+            android:paddingTop="12dp"
+            android:background="@color/md_theme_surface_container_high"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp">
+
+            <!-- Indicador de stock -->
+            <View
+                android:id="@+id/indicadorStock"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@color/stock_ok" />
+
+            <TextView
+                android:id="@+id/tvStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quedan 15 unidades"
+                android:textColor="@color/md_theme_on_surface_variant"
+                android:textSize="13sp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1" />
+
+            <!-- Botón tomar dosis -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTomar"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/tomado"
+                android:textSize="12sp"
+                android:layout_marginEnd="6dp"
+                app:backgroundTint="@color/md_theme_primary_container"
+                android:paddingHorizontal="12dp"
+                android:minWidth="0dp" />
+
+            <!-- Botón reabastecer -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReabastecer"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text="+"
+                android:textSize="16sp"
+                android:paddingHorizontal="0dp"
+                android:minWidth="0dp"
+                app:strokeColor="@color/md_theme_outline" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

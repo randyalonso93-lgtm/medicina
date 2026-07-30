@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediTrack</string>
+    <string name="titulo_vacio">Sin medicamentos registrados</string>
+    <string name="subtitulo_vacio">Toca el botón + para agregar tu primer medicamento</string>
+    <string name="agregar">Agregar medicamento</string>
+    <string name="nombre_medicamento">Nombre del medicamento</string>
+    <string name="dosis">Dosis (ej: 500mg, 1 pastilla)</string>
+    <string name="descripcion">Descripción o notas</string>
+    <string name="hora">Hora del recordatorio</string>
+    <string name="stock_actual">Cantidad restante</string>
+    <string name="stock_minimo">Alertar cuando queden menos de</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="tomado">Tomado</string>
+    <string name="omitido">Omitido</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="restar_stock">Tomar dosis (-1)</string>
+    <string name="agregar_stock">Reabastecer (+1)</string>
+    <string name="confirmar_eliminar">¿Eliminar este medicamento y todos sus recordatorios?</string>
+    <string name="si">Sí, eliminar</string>
+    <string name="no">Cancelar</string>
+    <string name="canal_nombre">Recordatorios de medicamentos</string>
+    <string name="canal_desc">Notificaciones para recordar tomar tus medicamentos</string>
+    <string name="notif_titulo">Hora de tu medicamento</string>
+    <string name="notif_texto">Es hora de tomar %s — %s</string>
+    <string name="stock_bajo">Stock bajo: %s — quedan %d unidades</string>
+    <string name="stock_vacio">Sin stock: %s — no quedan unidades</string>
+    <string name="campos_obligatorios">Nombre, dosis y hora son obligatorios</string>
+    <string name="proximo">Próximo: %s</string>
+    <string name="sin_proximo">Sin recordatorio programado</string>
+    <string name="historial_hoy">Hoy</string>
+    <string name="registro_tomado">Tomado a las %s</string>
+    <string name="registro_omitido">Omitido a las %s</string>
+</resources>
