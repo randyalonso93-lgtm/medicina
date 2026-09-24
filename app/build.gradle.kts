@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.medicina"
+    namespace = "com.dosis"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.medicina"
+        applicationId = "com.dosis"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -32,6 +32,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+}
+
+ksp {
+    arg("room.schemaLocation", "$projectDir/schemas")
 }
 
 dependencies {

@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="seed">#00B894</color>
-    <color name="md_theme_primary">#00B894</color>
+    <color name="md_theme_primary">#006C58</color>
     <color name="md_theme_on_primary">#FFFFFF</color>
-    <color name="md_theme_primary_container">#004D3D</color>
-    <color name="md_theme_on_primary_container">#6FFCD5</color>
-    <color name="md_theme_secondary">#B2CCC2</color>
-    <color name="md_theme_background">#0A1A14</color>
-    <color name="md_theme_surface">#0F231B</color>
-    <color name="md_theme_surface_container">#162E24</color>
-    <color name="md_theme_surface_container_high">#1D3A2E</color>
-    <color name="md_theme_on_surface">#DDE5DF</color>
-    <color name="md_theme_on_surface_variant">#BFC9C2</color>
-    <color name="md_theme_outline">#89938D</color>
-    <color name="md_theme_error">#FFB4AB</color>
-    <color name="md_theme_on_error">#690005</color>
+    <color name="md_theme_primary_container">#8DF8D8</color>
+    <color name="md_theme_on_primary_container">#00211A</color>
+    <color name="md_theme_secondary">#4B6359</color>
+    <color name="md_theme_background">#F4FBF7</color>
+    <color name="md_theme_surface">#F4FBF7</color>
+    <color name="md_theme_surface_container_lowest">#FFFFFF</color>
+    <color name="md_theme_surface_container_low">#EEF2EF</color>
+    <color name="md_theme_surface_container">#E8F0EB</color>
+    <color name="md_theme_surface_container_high">#E1EBE6</color>
+    <color name="md_theme_surface_container_highest">#DCE4E0</color>
+    <color name="md_theme_on_surface">#171D1A</color>
+    <color name="md_theme_on_surface_variant">#404943</color>
+    <color name="md_theme_outline">#707973</color>
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_on_error">#FFFFFF</color>
     <color name="warning">#FFB300</color>
     <color name="danger">#FF5252</color>
     <color name="stock_ok">#00B894</color>

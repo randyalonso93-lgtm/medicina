@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#00B894</color>
+    <color name="md_theme_primary">#6FFCD5</color>
+    <color name="md_theme_on_primary">#00382D</color>
+    <color name="md_theme_primary_container">#004D3D</color>
+    <color name="md_theme_on_primary_container">#6FFCD5</color>
+    <color name="md_theme_secondary">#B2CCC2</color>
+    <color name="md_theme_background">#0A1A14</color>
+    <color name="md_theme_surface">#0F231B</color>
+    <color name="md_theme_surface_container_lowest">#0A1812</color>
+    <color name="md_theme_surface_container_low">#15241D</color>
+    <color name="md_theme_surface_container">#162E24</color>
+    <color name="md_theme_surface_container_high">#1D3A2E</color>
+    <color name="md_theme_surface_container_highest">#2C4638</color>
+    <color name="md_theme_on_surface">#DDE5DF</color>
+    <color name="md_theme_on_surface_variant">#BFC9C2</color>
+    <color name="md_theme_outline">#89938D</color>
+    <color name="md_theme_error">#FFB4AB</color>
+    <color name="md_theme_on_error">#690005</color>
+    <color name="warning">#FFB300</color>
+    <color name="danger">#FF5252</color>
+    <color name="stock_ok">#00B894</color>
+    <color name="stock_low">#FFB300</color>
+    <color name="stock_empty">#FF5252</color>
+</resources>

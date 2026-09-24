@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_buscar"
+        android:title="@string/buscar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_historial"
+        android:title="@string/titulo_historial"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_estadisticas"
+        android:title="@string/estadisticas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_tema"
+        android:title="@string/tema"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_tema_sistema"
+                android:checkable="true"
+                android:title="@string/modo_sistema" />
+            <item
+                android:id="@+id/action_tema_claro"
+                android:checkable="true"
+                android:title="@string/modo_claro" />
+            <item
+                android:id="@+id/action_tema_oscuro"
+                android:checkable="true"
+                android:title="@string/modo_oscuro" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_backup"
+        android:title="@string/copia_seguridad"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_exportar"
+                android:title="@string/exportar" />
+            <item
+                android:id="@+id/action_importar"
+                android:title="@string/importar" />
+            <item
+                android:id="@+id/action_limpiar_historial"
+                android:title="@string/limpiar_historial" />
+        </menu>
+    </item>
+
+</menu>
